@@ -22,6 +22,14 @@
   }
 }
 
+.header__logo .header__logo--black {
+  color: var(--logo-dark-color);
+
+  &:hover {
+    color: var(--active--color);
+  }
+}
+
 .nav {
   display: flex;
 }

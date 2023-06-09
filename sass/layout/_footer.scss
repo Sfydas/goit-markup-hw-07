@@ -174,3 +174,11 @@
   height: 20px;
   margin-left: 20px;
 }
+
+.footer__logo .header__logo--black {
+  color: var(--color-light);
+
+  &:hover {
+    color: var(--active--color);
+  }
+}
